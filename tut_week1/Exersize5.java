@@ -12,5 +12,6 @@ public class Exersize5 {
         else{
             System.out.println("The number is negative");
         }
+        reader.close();
     }
 }

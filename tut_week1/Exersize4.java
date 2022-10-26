@@ -11,5 +11,8 @@ public class Exersize4 {
         int secondNumber = Integer.parseInt(reader1.nextLine());
 
         System.out.println("Sum of the numbers is: " + (firstNumber + secondNumber) + " !");
+
+        reader.close();
+        reader1.close();
     }
 }

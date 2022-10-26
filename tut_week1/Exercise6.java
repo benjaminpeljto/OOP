@@ -21,5 +21,8 @@ public class Exercise6 {
         else{
             System.out.println("Greater number: " + number2);
         }
+
+        reader1.close();
+        reader2.close();
     }
 }
